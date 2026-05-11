@@ -1,0 +1,113 @@
+# 🥑 Tierra de Gracia — Guía de Instalación
+## Cómo publicar la app y tenerla en tu iPhone
+
+---
+
+## LO QUE NECESITAS
+- Una computadora (PC o Mac) con internet
+- Una cuenta de Gmail
+- 20 minutos de tu tiempo
+
+---
+
+## PASO 1 — Instalar Node.js en la computadora
+1. Ve a: https://nodejs.org
+2. Haz clic en el botón verde grande que dice "LTS"
+3. Descarga e instala el programa (siguiente → siguiente → instalar)
+4. Cuando termine, reinicia la computadora
+
+---
+
+## PASO 2 — Preparar los archivos de la app
+1. Descarga la carpeta "tierra-de-gracia" que te dio Claude
+2. Descomprímela en tu escritorio
+3. Abre la carpeta — verás archivos como package.json, index.html, etc.
+
+---
+
+## PASO 3 — Instalar dependencias
+1. Abre la aplicación "Terminal" (Mac) o "Símbolo del sistema" (Windows)
+2. Escribe este comando y presiona Enter:
+   cd Desktop/tierra-de-gracia
+3. Luego escribe esto y presiona Enter:
+   npm install
+4. Espera unos minutos mientras se instala todo (verás texto moviéndose)
+
+---
+
+## PASO 4 — Crear cuenta en GitHub (gratis)
+1. Ve a: https://github.com
+2. Haz clic en "Sign up"
+3. Crea una cuenta con tu correo Gmail
+4. Verifica tu correo
+
+---
+
+## PASO 5 — Subir el proyecto a GitHub
+1. Ve a: https://github.com/new
+2. En "Repository name" escribe: tierra-de-gracia
+3. Deja todo lo demás igual y haz clic en "Create repository"
+4. Sigue las instrucciones que te muestra GitHub para subir los archivos
+   (dice "...or push an existing repository")
+
+   En la Terminal escribe uno por uno:
+   git init
+   git add .
+   git commit -m "Tierra de Gracia app"
+   git branch -M main
+   git remote add origin https://github.com/TU-USUARIO/tierra-de-gracia.git
+   git push -u origin main
+
+   ⚠️ Reemplaza TU-USUARIO con tu nombre de usuario de GitHub
+
+---
+
+## PASO 6 — Publicar en Vercel (gratis)
+1. Ve a: https://vercel.com
+2. Haz clic en "Sign Up" → elige "Continue with GitHub"
+3. Autoriza Vercel
+4. Haz clic en "Add New Project"
+5. Busca "tierra-de-gracia" y haz clic en "Import"
+6. Deja todo como está y haz clic en "Deploy"
+7. ¡Espera 2 minutos! Vercel construirá tu app automáticamente
+
+Al terminar verás una dirección como:
+   https://tierra-de-gracia.vercel.app
+
+¡Esa es tu app en internet! 🎉
+
+---
+
+## PASO 7 — Instalarla en tu iPhone
+1. Abre Safari en tu iPhone (debe ser Safari, no Chrome)
+2. Ve a la dirección que te dio Vercel
+   (ej: https://tierra-de-gracia.vercel.app)
+3. Toca el botón de compartir (el cuadrado con una flecha hacia arriba ↑)
+4. Desliza hacia abajo y toca "Agregar a pantalla de inicio"
+5. Ponle el nombre "Tierra de Gracia" y toca "Agregar"
+
+¡Listo! Ahora tienes el ícono de la app en tu pantalla de inicio,
+igual que cualquier otra aplicación. 🥑
+
+---
+
+## ¿PROBLEMAS? Mensajes frecuentes
+
+❌ "npm no se reconoce como comando"
+→ Reinicia la computadora después de instalar Node.js
+
+❌ "Permission denied"
+→ En Mac, agrega "sudo " antes del comando
+
+❌ La app abre en el navegador, no como app
+→ Asegúrate de usar Safari (no Chrome) al agregarla
+
+---
+
+## COMPARTIR CON TU HERMANO
+Una vez publicada, simplemente comparte el link de Vercel con él.
+Él puede seguir el Paso 7 en su iPhone y también tendrá la app. ✅
+
+---
+
+¿Tienes dudas? Pregúntale a Claude — ¡está aquí para ayudarte! 😊
